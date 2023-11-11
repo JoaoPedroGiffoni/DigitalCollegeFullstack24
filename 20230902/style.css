@@ -1,0 +1,27 @@
+.conteiner{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
