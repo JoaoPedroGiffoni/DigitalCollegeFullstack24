@@ -96,24 +96,29 @@
 // console.log(gato.raca.toUpperCase())
 
 
-function Gato(nomePassado = "", racaPassada = "") {
+// function Gato(nomePassado = "", racaPassada = "") {
 
-    this.nome = nomePassado;
-    this.raca = racaPassada
+//     this.nome = nomePassado;
+//     this.raca = racaPassada
 
+// }
+
+// let gato = new Gato("Lico", "Sianes")
+
+// let gato1 = new Gato("Lico", "Persa")
+
+// let gato2 = new Gato("Juba")
+
+// // console.log(gato.raca.toUpperCase())
+
+// let nome = new String("João Pedro")
+// let idade = new Number(30)
+// let teste = new Boolean("10")
+// let cores = new Array("Vermelho","azul")
+
+// console.log(cores)
+
+
+function chamar() {
+    document.body.innerHTML = "João"
 }
-
-let gato = new Gato("Lico", "Sianes")
-
-let gato1 = new Gato("Lico", "Persa")
-
-let gato2 = new Gato("Juba")
-
-// console.log(gato.raca.toUpperCase())
-
-let nome = new String("João Pedro")
-let idade = new Number(30)
-let teste = new Boolean("10")
-let cores = new Array("Vermelho","azul")
-
-console.log(cores)
