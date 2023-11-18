@@ -119,6 +119,10 @@
 // console.log(cores)
 
 
+// function chamar() {
+//     document.body.innerHTML = "João"
+// }
+
 function chamar() {
-    document.body.innerHTML = "João"
+    document.body.innerHTML = document.body.innerHTML +"João "
 }
