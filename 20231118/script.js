@@ -123,6 +123,14 @@
 //     document.body.innerHTML = "João"
 // }
 
+
+
+
+// function chamar() {
+//     document.body.innerHTML = document.body.innerHTML +"João "
+// }
+
+// ou 
 function chamar() {
-    document.body.innerHTML = document.body.innerHTML +"João "
+    document.body.innerHTML += "<h1>João</h1> "
 }
