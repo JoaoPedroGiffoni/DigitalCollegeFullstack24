@@ -1,3 +1,8 @@
+function marcarConcluido(evento) {
+    const elemento = evento.target;
+    elemento.classList.toggle("feito");
+}
+
 function pegarValorInput() {
     const entrada = document.getElementById("entrada");
 
@@ -18,8 +23,8 @@ function pegarLista() {
 
 function criarElementoLI(valor) {
     const li = document.createElement("li");
-    li.onclick =
-        li.textContent = valor;
+    li.onclick = marcarConcluido;
+    li.textContent = valor;
 
     return li;
 }
