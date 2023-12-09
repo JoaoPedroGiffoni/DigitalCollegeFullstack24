@@ -14,11 +14,28 @@
 // });
 
 
+
+// const imgs = document.querySelectorAll("img");
+
+// function aplicaboda (elemento){
+//     elemento.style.border = "2px solid #000"
+// }
+
+// imgs.forEach(aplicaboda)
+
+// mesma funcionalidade da função
+// const imgs = document.querySelectorAll("img");
+// imgs.forEach((elemento)=> elemento.style.border="2px solid red");
+// Mesma forma mais explicado
+// const imgs = document.querySelectorAll("img");
+
+// imgs.forEach((elemento) => { 
+//     elemento.style.border = "2px solid red"});
+
 const imgs = document.querySelectorAll("img");
 
-function aplicaboda (elemento){
-    elemento.style.border = "2px solid #000"
+imgs.forEach((elemento) => { 
+    elemento.style.border = "2px solid red"});
 
-}
 
-imgs.forEach(aplicaboda)
+
