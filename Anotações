@@ -19,6 +19,7 @@ map
 
 
 fetch(Promisses)
+.then
 JS asicrono
 Async Await
 
