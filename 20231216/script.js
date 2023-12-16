@@ -1,11 +1,15 @@
-const url = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/ce/municipios";
+// 
 
+const url =
+    "https://servicodados.ibge.gov.br/api/v1/localidades/estados/ce/municipios";
+
+const cidades = document.getElementById("cidades");
 
 function criarEAddElemento(cidade) {
-    const h1 = document.createElement("li");
-    h1.textContent = cidade.nome;
+    const cidadeOption = document.createElement("option");
+    cidadeOption.textContent = cidade.nome;
 
-    document.body.appendChild(h1);
+    cidades.appendChild(cidadeOption);
 }
 
 function buscarCidadesCE() {
