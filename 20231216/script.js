@@ -36,19 +36,12 @@ function criarEAddElemento(cidade) {
     cidades.appendChild(cidadeOption);
 }
 
-function buscarCidadesCE() {
-    //retorna uma Promisse
-    const retorno = fetch(url);
+async function buscarCidadesCE() {
+    const resposta = await fetch(url);
+    const json = await resposta.json();
 
-    // Then trata a Promisse
-    retorno
-        .then((resposta) => {
-            // transforma a resposta em json, retorna uma nova Promisse
-            return resposta.json();
-        })
-        .then((json) => {
-            json.forEach(criarEAddElemento);
-        });
+    json.forEach(criarEAddElemento);
 }
+
 
 buscarCidadesCE();
